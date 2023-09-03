@@ -1,2 +1,2 @@
 # ArtofAI
-Code related to podcast, article series and book
+Code samples related to podcast, article series and book

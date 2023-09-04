@@ -9,7 +9,7 @@ import openai
 import tiktoken
 
 # Initialize API credentials
-openai.api_key = "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"
+openai.api_key = "INSERT_API_KEY_HERE"
 
 # Specify the GPT-3 model to be used
 # Supported models include "text-davinci-003", "text-ada-001", etc.

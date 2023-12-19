@@ -1,0 +1,40 @@
+# KAREL THE ROBOT PROGRAM
+# DecisionBasedNavigation.kl
+
+# You can find a Karel the Robot execution environment in a few different places:
+
+# GitHub: There's a project on GitHub that provides a Karel The Robot environment. This project seems to be actively maintained and offers detailed instructions for getting started, including information on language reference, primitive commands, and custom commands. You can find it here on GitHub.
+# GoAcademy: Karel is also available as a plugin for Eclipse, a popular integrated development environment (IDE) used for Java development. You can install it directly using the plugin link provided on their website. After installing Karel, you can import sample projects to get started. For detailed installation instructions, visit GoAcademy's page on installing Karel the Robot.
+
+
+# BEGINNING-OF-PROGRAM
+
+# Defines a procedure to make Karel turn right by turning left three times
+DEFINE turnRight AS
+BEGIN
+    turnLeft;
+    turnLeft;
+    turnLeft;
+END
+
+# Defines a procedure to check surroundings and decide on a movement
+DEFINE checkAndTurn AS
+BEGIN
+    IF rightIsClear THEN
+        turnRight   # If right is clear, turn right
+    ELSE IF frontIsClear THEN
+        move        # If front is clear, move forward
+    ELSE
+        turnLeft;   # If neither, turn left
+END
+
+# BEGINNING-OF-EXECUTION
+# The main execution loop where Karel keeps checking and turning until a stopping condition (off)
+WHILE NOT off THEN
+BEGIN
+    checkAndTurn;
+END
+turnoff  # Turns Karel off, ending the program
+# END-OF-EXECUTION
+
+# END-OF-PROGRAM

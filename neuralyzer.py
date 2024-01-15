@@ -1,5 +1,9 @@
-# Neuralyzer.py
-# By Jerry Cuomo, 2023, Art of AI for Business
+# Source: "Think Artificial Intelligence" by Jerry Cuomo, 2024
+# Purpose: Educational code examples from the book.
+# Copyright © 2024 Jerry Cuomo. All rights reserved.
+
+# neuralyzer.py
+# 
 # A utility to make biased API calls to OpenAI's GPT-3
 # The program can be configured to forget (bias against) specific terms
 # when generating text in response to a given prompt.

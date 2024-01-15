@@ -1,3 +1,7 @@
+# Source: "Think Artificial Intelligence" by Jerry Cuomo, 2024
+# Purpose: Educational code examples from the book.
+# Copyright © 2024 Jerry Cuomo. All rights reserved.
+
 # Text Adventure Game Decision-Making Script
 # This script simulates decision-making processes in a text adventure game.
 # It evaluates various conditions such as player actions and character familiarity,

@@ -1,0 +1,20 @@
+If databases were birds, then Blockchain would be a [MASK].
+Not all blockchain-[MASK] are the same, demonstrating the variety within the technology.
+Permissionless or Public Blockchains are known for their [MASK] and decentralized nature.
+The Ethereum world computer introduces the concept of [MASK] Contracts, revolutionizing digital agreements.
+In a blockchain, consensus is reached through a collective agreement among [MASK].
+Blockchain technology provides a new layer of [MASK], making digital transactions more secure.
+Smart Contracts on Ethereum are programmable [MASK] that execute automatically when conditions are met.
+Hyperledger Fabric offers modularity and privacy for [MASK] blockchain solutions.
+Blockchain's immutability means once data is added, it cannot be altered or [MASK].
+Decentralized finance (DeFi) utilizes blockchain to create a more open and accessible [MASK] system.
+See the README.md file [MASK] search for the Chapter 8 assignment details, but the gist of the assignment is to give:
+While many early blockchain platforms are currently being adapted [MASK] enterprise use, Fabric has been designed for enterprise use from the outset.
+Privacy - perhaps you don’t want your competitor to know who you [MASK] buying your sugar from, and at what price,
+Similarly, in a previous section we discussed the ease-of-use that blockchain gateways like Infura bring to developers. [MASK] would know why.
+There are three key concepts that make SSIs work, which [MASK] explored in the sections that follow.
+Application code should be [MASK] as untrusted, potentially even malicious.
+Chapter 7 – [MASK] Intelligence, IoT and Quantum
+Is Web3… the Internet of the future? This sort [MASK] shift is not as radical as one might think.
+State [MASK] science), Wikipedia
+Specifically, the [MASK] of mining involves creating, transmitting, receiving, verifying, and packaging transactions.

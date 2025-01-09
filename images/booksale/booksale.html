@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry Cuomo's Book Sale</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .banner img {
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        h1 {
+            color: #00ffff;
+            font-size: 2.5em;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .book {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .book:hover {
+            transform: translateY(-5px);
+        }
+
+        .book img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 2px solid #00ffff;
+        }
+
+        .book-info {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #00ffff;
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #00ffff;
+        }
+
+        a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 2px solid #00ffff;
+        }
+
+        .bio h3 {
+            color: #00ffff;
+            margin-bottom: 10px;
+        }
+
+        .bio p {
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="https://jerrycuomo.github.io/Think_Artificial_Intelligence/images/booksale/booksale-selfie.jpeg"
+            alt="Think Series Logo">
+        <h1>Closet Clearance!</h1>
+    </div>
+
+    <div class="intro">
+        <p>My wife: "Jerry, how long are you planning to keep those books in the closet? I could really use that space
+            back."</p>
+        <p>So, here's the deal: To make my wife happy and clear out some closet space, I'm offering signed, personalized
+            copies of the following books from my collection. <strong>ALL profits go to St. Jude Children's
+                Hospital!</strong></p>
+    </div>
+
+    <div class="book-grid">
+        <div class="book">
+            <a
+                href="https://www.ebay.com/itm/176722854543?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=3i2C0Cg5SEe&sssrc=2524149&ssuid=3i2C0Cg5SEe&widget_ver=artemis&media=COPY">
+                <img src="https://jerrycuomo.github.io/Think_Artificial_Intelligence/images/booksale/think-series.jpeg"
+                    alt="Think Series">
+                <div class="book-info">
+                    <h2>Think Series Set (Think AI & Blockchain) with Bookmark</h2>
+                    <p>A comprehensive guide to AI and blockchain, exploring their evolution and impact on technology
+                        and business.</p>
+                    <p class="price">$19.90</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="book">
+            <a
+                href="https://www.ebay.com/itm/176782153567?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=3i2C0Cg5SEe&sssrc=2524149&ssuid=3i2C0Cg5SEe&widget_ver=artemis&media=COPY">
+                <img src="https://jerrycuomo.github.io/Think_Artificial_Intelligence/images/booksale/think-ai.jpeg"
+                    alt="Think AI">
+                <div class="book-info">
+                    <h2>Think Artificial Intelligence with Bookmark</h2>
+                    <p>An entertaining and balanced education on AI's building blocks and the personalities shaping its
+                        future.</p>
+                    <p class="price">$14.90</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="book">
+            <a
+                href="https://www.ebay.com/itm/176782144457?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=3i2C0Cg5SEe&sssrc=2524149&ssuid=3i2C0Cg5SEe&widget_ver=artemis&media=COPY">
+                <img src="https://jerrycuomo.github.io/Think_Artificial_Intelligence/images/booksale/think-blockchain.jpeg"
+                    alt="Think Blockchain">
+                <div class="book-info">
+                    <h2>Think Blockchain with Bookmark</h2>
+                    <p>A student's guide to blockchain's evolution from Bitcoin and Ethereum to the foundation of Web3.
+                    </p>
+                    <p class="price">$9.90</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="book">
+            <a
+                href="https://www.ebay.com/itm/176782124632?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=3i2C0Cg5SEe&sssrc=2524149&ssuid=3i2C0Cg5SEe&widget_ver=artemis&media=COPY">
+                <img src="https://jerrycuomo.github.io/Think_Artificial_Intelligence/images/booksale/artofautomation.jpeg"
+                    alt="Art of Automation">
+                <div class="book-info">
+                    <h2>Art of Automation (Hardcover) with Bookmark</h2>
+                    <p>Discover how AI-powered automation helps people reclaim up to 50% of their time for higher-value
+                        work.</p>
+                    <p class="price">$5.90</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="book">
+            <a
+                href="https://www.ebay.com/itm/176782134596?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=3i2C0Cg5SEe&sssrc=2524149&ssuid=3i2C0Cg5SEe&widget_ver=artemis&media=COPY">
+                <img src="https://jerrycuomo.github.io/Think_Artificial_Intelligence/images/booksale/blockchain4business.jpeg"
+                    alt="Blockchain for Business">
+                <div class="book-info">
+                    <h2>Blockchain for Business</h2>
+                    <p>A concise guide to blockchain technology and its potential to reinvent processes and business
+                        models.</p>
+                    <p class="price">$5.90</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="bio">
+            <h3>About Jerry Cuomo</h3>
+            <p><a href="https://en.wikipedia.org/wiki/Jerry_Cuomo">Jerry Cuomo</a> is an IBM Fellow, recognized as a
+                prolific innovator with over 100 US patents. He's a founding father of IBM
+                WebSphere and a pioneer in AI and blockchain technology. Jerry has authored several books, including
+                "Think AI"
+                and "Think Blockchain," and hosts the <a
+                    href="https://www.youtube.com/playlist?list=PLrhfCl3djwQSTjkuB3_zzi9yD0M_drl0i">"Wild Ducks"</a>
+                technology podcast. With a career spanning over three
+                decades at IBM, Jerry continues to drive innovation in AI-powered automation, cloud computing, and
+                emerging technologies.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
